@@ -39,7 +39,9 @@ if (! ps_authed()) {
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Photo Station — Sign in</title>
+        <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234361ee'/%3E%3Cpath d='M20 24h6l3-4h6l3 4h6a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H20a3 3 0 0 1-3-3V27a3 3 0 0 1 3-3z' fill='%23fff'/%3E%3Ccircle cx='32' cy='34' r='6' fill='%234361ee'/%3E%3C/svg%3E">
+        <meta name="theme-color" content="#4361ee">
+        <title>SCAN2FETCH Photo Station | Sign In</title>
         <style>
             :root { color-scheme: dark; }
             * { box-sizing: border-box; }
@@ -82,7 +84,9 @@ $target = ps_target_dir() ?? '';
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Photo Station — Student Pictures</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234361ee'/%3E%3Cpath d='M20 24h6l3-4h6l3 4h6a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H20a3 3 0 0 1-3-3V27a3 3 0 0 1 3-3z' fill='%23fff'/%3E%3Ccircle cx='32' cy='34' r='6' fill='%234361ee'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#4361ee">
+<title>SCAN2FETCH Photo Station | Student Pictures</title>
 <style>
     :root { color-scheme: dark; --bg:#0d1020; --card:#151a33; --line:#26305c;
             --ink:#e8eaf6; --muted:#8c93b8; --accent:#4361ee; --ok:#22c55e; --bad:#ff6b81; }
@@ -268,6 +272,7 @@ $target = ps_target_dir() ?? '';
                 </div>
             <?php endforeach; endif; ?>
         </div>
+
     </div>
 </div>
 

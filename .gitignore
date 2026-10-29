@@ -1,0 +1,5 @@
+# Photos are real people's data - never commit them.
+Pictures/*
+!Pictures/.gitkeep
+!*.gitkeep
+/config.local.php
